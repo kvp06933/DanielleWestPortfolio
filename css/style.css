@@ -1,0 +1,44 @@
+body{
+   font-family: 'Roboto', sans-serif;
+}
+/* main>.container {
+    padding: 60px 15px 0;
+    margin-top: 5rem;
+    
+} */
+.sticky-nav {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.navbar-brand .title{
+    font-size: 5rem;
+}
+
+.title{
+    font-family: 'Birthstone', cursive;
+}
+.header{
+    
+    background-repeat: none;
+    background-size: cover;
+    background-position: fixed;
+    background-image: radial-gradient(circle 827px at 47.3% 48%, rgba(255, 255, 255, 1) 0%, rgb(170, 108, 228) 90%);
+    
+    
+}
+
+@media only screen and (min-width: 992px){
+    .header{
+        background-image: url('/img/DanielleWestLarge.png');
+        min-height: 400px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width:991px) {
+    .header{
+        background-image: url('/img/DaniellWestSmall.png');
+        
+    }
+}
+
